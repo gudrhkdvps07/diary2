@@ -30,11 +30,23 @@
 .Addbtn {
   color: rgb(21, 21, 21);
   background-color: #9ad6a8;
+  margin-top: 10px;
+  margin-bottom: 10px;
 }
 
 .Addbtn:hover {
   color: white;
   background-color: rgb(87, 140, 111);
+}
+
+.formdiv {
+  margin-top: 10px;
+}
+
+.form-label {
+  font-weight: bolder;
+  margin-top: 10px;
+  color: rgb(42, 41, 40);
 }
 
 .wise {
@@ -48,8 +60,20 @@
   color: rgb(113, 165, 136);
 }
 
-@media (min-width: 768px) {
+@media (min-width: 768px) and (max-width: 900px) {
   .addContainer {
-    width: 55%;
+    width: 70%;
+  }
+}
+
+@media (min-width: 900px) and (max-width: 1200px) {
+  .addContainer {
+    width: 60%;
+  }
+}
+
+@media (min-width: 1200px) {
+  .addContainer {
+    width: 50%;
   }
 }

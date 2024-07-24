@@ -73,7 +73,7 @@ function AddDiary() {
         <br />
         <br />
         <form onSubmit={handleSubmit}>
-          <div className="mb-3">
+          <div className="formdiv mb-3">
             <label htmlFor="DiaryAddDate" className="form-label">
               오늘 날짜
             </label>
@@ -85,7 +85,7 @@ function AddDiary() {
               onChange={(e) => setDate(e.target.value)}
             />
           </div>
-          <div className="mb-3">
+          <div className="formdiv mb-3">
             <label htmlFor="DiaryTitle" className="form-label">
               일기 제목
             </label>
@@ -97,7 +97,7 @@ function AddDiary() {
               onChange={(e) => setTitle(e.target.value)}
             />
           </div>
-          <div className="mb-3">
+          <div className="formdiv mb-3">
             <label htmlFor="DiaryOneLine" className="form-label">
               한줄평
             </label>
@@ -109,7 +109,7 @@ function AddDiary() {
               onChange={(e) => setOneLine(e.target.value)}
             />
           </div>
-          <div className="mb-3">
+          <div className="formdiv mb-3">
             <label htmlFor="todayDiary" className="form-label">
               오늘의 일기
             </label>
@@ -129,9 +129,10 @@ function AddDiary() {
       </div>
       <div className="wise">
         <span className="wiseSpan">일기</span>를 쓴다는 것은 누구도 보지 않을
-        책에 헌신할 만큼 자신의 삶이 가치가 있다고 판단하는 것이다. <br />
-        <br />
-        -아주 작은 반복의 힘, 로버트 마우어
+        책에 헌신할 만큼 자신의 삶이{' '}
+        <span className="wiseSpan">가치가 있다</span>고 판단하는 것이다. <br />
+        <br />-<span className="wiseSpan">아주 작은 반복의 힘</span>, 로버트
+        마우어
       </div>
       <br />
       <br />
