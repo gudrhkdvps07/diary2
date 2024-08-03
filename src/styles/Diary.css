@@ -58,6 +58,23 @@ table thead.custom-thead th {
 
 table tbody.custom-tbody td {
   background-color: #ffffff !important;
+  text-align: center;
+}
+
+.btn-del {
+  background-color: #7d706c;
+}
+
+.btn-del:hover {
+  background-color: #4a3c3c;
+}
+
+.btn-su {
+  background-color: rgba(85, 124, 103, 0.829);
+}
+
+.btn-su:hover {
+  background-color: rgb(55, 84, 68);
 }
 
 /* Form styles */

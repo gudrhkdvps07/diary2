@@ -6,9 +6,14 @@ import '../styles/NavBar.css'
 
 function NavBar() {
   return (
-    <nav className="navbar navbar-expand-lg navbar-light ">
+    <nav className="navbar navbar-expand-lg navbar-light">
       <div className="container-fluid">
-        <Link className="navbar-brand fs-2 mx-1" to="/">
+        <Link className="navbar-brand fs-2 mx-1" to="/introduce">
+          <img
+            src={`${process.env.PUBLIC_URL}/img/logo.png`}
+            alt="writer"
+            className="logo-img"
+          />
           마음챙기기
         </Link>
         <button
