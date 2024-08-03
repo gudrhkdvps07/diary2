@@ -33,31 +33,31 @@ h1 {
 }
 
 .spantag {
-  color: #9ad6a8;
+  color: rgb(113, 165, 136);
 }
 
 h1 i {
   margin-right: 10px;
-  color: #9ad6a8;
+  color: rgb(113, 165, 136);
 }
 
 .btn {
-  background-color: #9ad6a8;
+  background-color: rgb(113, 165, 136);
 }
 
 .btn:hover {
-  background-color: #529061;
+  background-color: #529074;
 }
 
 /* Table styles */
 
-.custom-thead {
-  background-color: #9ad6a8 !important;
-}
-
 table thead.custom-thead th {
   color: #fff !important;
-  background-color: #9ad6a8 !important;
+  background-color: rgb(113, 165, 136) !important;
+}
+
+table tbody.custom-tbody td {
+  background-color: #ffffff !important;
 }
 
 /* Form styles */
