@@ -9,7 +9,7 @@
 }
 
 .header-content {
-  margin: 20px;
+  margin: 120px !important;
 }
 
 .title {
@@ -28,7 +28,7 @@
   flex-direction: column; /* 추가 부분 */
   align-items: center;
   justify-content: center; /* 추가 부분 */
-  padding: 50px;
+  padding: 60px;
   background-color: #fffef9;
   color: #312c25;
   border-radius: 20px;
@@ -36,7 +36,7 @@
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   width: 85%;
   margin: 35px;
-  margin-top: 60px;
+  margin-top: 80px;
   margin-left: auto; /* 추가 부분 */
   margin-right: auto; /* 추가 부분 */
 }
@@ -44,6 +44,7 @@
 .section-title {
   font-size: 2em;
   margin-bottom: 20px;
+  color: rgb(113, 165, 136) !important;
 }
 
 .section-description {
@@ -56,6 +57,7 @@
 }
 
 .section-content {
+  margin-bottom: 80px;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
@@ -66,6 +68,7 @@
   border-radius: 10px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   margin: 15px;
+  margin-top: 80px;
   flex-basis: 45%;
   padding: 30px;
   text-align: center;
